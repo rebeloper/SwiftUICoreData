@@ -11,6 +11,8 @@
 		C94713D9260DD0E300AB2E6F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94713D8260DD0E300AB2E6F /* ContentView.swift */; };
 		C94713DB260DD0E400AB2E6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C94713DA260DD0E400AB2E6F /* Assets.xcassets */; };
 		C94713DE260DD0E400AB2E6F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C94713DD260DD0E400AB2E6F /* Preview Assets.xcassets */; };
+		C94713E8260DD10C00AB2E6F /* Stash.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C94713E6260DD10C00AB2E6F /* Stash.xcdatamodeld */; };
+		C94713EB260DD19A00AB2E6F /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94713EA260DD19A00AB2E6F /* PersistenceController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		C94713DA260DD0E400AB2E6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C94713DD260DD0E400AB2E6F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C94713DF260DD0E400AB2E6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C94713E7260DD10C00AB2E6F /* Stash.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Stash.xcdatamodel; sourceTree = "<group>"; };
+		C94713EA260DD19A00AB2E6F /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +58,11 @@
 			children = (
 				C94713D6260DD0E300AB2E6F /* SwiftUICoreDataApp.swift */,
 				C94713D8260DD0E300AB2E6F /* ContentView.swift */,
+				C94713E6260DD10C00AB2E6F /* Stash.xcdatamodeld */,
 				C94713DA260DD0E400AB2E6F /* Assets.xcassets */,
 				C94713DF260DD0E400AB2E6F /* Info.plist */,
 				C94713DC260DD0E400AB2E6F /* Preview Content */,
+				C94713EA260DD19A00AB2E6F /* PersistenceController.swift */,
 			);
 			path = SwiftUICoreData;
 			sourceTree = "<group>";
@@ -138,8 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C94713E8260DD10C00AB2E6F /* Stash.xcdatamodeld in Sources */,
 				C94713D9260DD0E300AB2E6F /* ContentView.swift in Sources */,
 				C94713D7260DD0E300AB2E6F /* SwiftUICoreDataApp.swift in Sources */,
+				C94713EB260DD19A00AB2E6F /* PersistenceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,6 +336,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C94713E6260DD10C00AB2E6F /* Stash.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C94713E7260DD10C00AB2E6F /* Stash.xcdatamodel */,
+			);
+			currentVersion = C94713E7260DD10C00AB2E6F /* Stash.xcdatamodel */;
+			path = Stash.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = C94713CB260DD0E300AB2E6F /* Project object */;
 }
